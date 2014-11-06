@@ -1,0 +1,32 @@
+.reveal section {
+  position: relative;
+}
+.reveal section img {
+  border: none!important;
+  box-shadow: none!important;
+  height: auto!important;
+}
+.reveal section .lullalogo {
+  position: absolute;
+  top: 30px;
+  border: 0;
+  box-shadow: none;
+  width: 18%;
+  right: 100%;
+}
+.editable-style {
+  display: block;
+  width: 100%;
+  min-height: 100px;
+  padding: 10px 20px;
+  tab-size: 2;
+  margin: 30px auto;
+  text-align: left;
+}
+img.clients {
+  display: block;
+  margin: 0 auto;
+  max-width: 80%;
+  transform: translate(12%, 50px);
+
+}

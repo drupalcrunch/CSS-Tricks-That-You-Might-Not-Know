@@ -1,0 +1,11 @@
+#slide-1 div {
+  width: 25%;
+  float: left;
+  height: 100px;
+  background: #ccc;
+  font-size: 22px;
+}
+#slide-1 div:nth-child(even) {
+  background: #ddd;
+
+}

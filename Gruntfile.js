@@ -102,7 +102,7 @@ module.exports = function(grunt) {
 				tasks: 'default'
 			},
 			theme: {
-				files: [ 'css/theme/source/*.scss', 'css/theme/template/*.scss' ],
+				files: [ 'index.html', 'css/theme/source/*.scss', 'css/theme/template/*.scss' ],
 				tasks: 'themes'
 			}
 		}

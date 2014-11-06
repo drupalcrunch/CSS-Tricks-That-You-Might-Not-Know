@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>reveal.js - The HTML Presentation Framework</title>
+		<title>Random CSS crap that you might not know... by Mike Herchl</title>
 
 		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
 		<meta name="author" content="Hakim El Hattab">
@@ -15,11 +15,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 		<link rel="stylesheet" href="css/reveal.min.css">
-		<link rel="stylesheet" href="css/theme/default.css" id="theme">
-
+		<link rel="stylesheet" href="css/theme/beige.css" id="theme">
+		<link rel="stylesheet" href="css/herchel.css">
+		<link rel="stylesheet" href="css/slides.css">
 		<!-- For syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
-
+	
 		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
 		<script>
 			if( window.location.search.match( /print-pdf/gi ) ) {
@@ -43,23 +44,47 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
-					<h1>Reveal.js</h1>
-					<h3>HTML Presentations Made Easy</h3>
+					<h1>Random CSS Crap That You Might Not Know...</h1>
+					<h3>An excercise in titling presentations badly</h3>
 					<p>
-						<small>Created by <a href="http://hakim.se">Hakim El Hattab</a> / <a href="http://twitter.com/hakimel">@hakimel</a></small>
+						<small>Created by <a href="http://herchel.com">Mike Herchel</a> / <a href="http://twitter.com/mikeherchel">@mikeherchel</a></small>
 					</p>
 				</section>
 
-				<section>
-					<h2>Heads Up</h2>
+				<section data-transition="none" style="height: 50vh;">
+					<h2>About Me</h2>
+				  <img class="lullalogo" src="images/lullalogo.png" width="20%" alt="Lullabot">
 					<p>
-						reveal.js is a framework for easily creating beautiful presentations using HTML. You'll need a browser with
-						support for CSS 3D transforms to see it in its full glory.
+						I'm a Gainesvillian since 2000. I'm a front-end developer at <a href="https://www.lullabot.com/">Lullabot</a>, and we make big-ass websites.
 					</p>
+				</section>
 
-					<aside class="notes">
-						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
-					</aside>
+				<section data-transition="fade" style="height: 50vh;">
+					<h2>About Me</h2>
+				  <img class="lullalogo" src="images/lullalogo.png" width="20%" alt="Lullabot">
+					<p>
+						I'm a Gainesvillian since 2000. I'm a front-end developer at <a href="https://www.lullabot.com/">Lullabot</a>, and we make big-ass websites.
+					</p>
+					<p><img class="clients" src="images/logos.png" height="205" width="1347" alt=""></p>
+				</section>
+
+				<section class="editable">
+					<h1 class="editable-text">CSS Box Sizing</h1>
+<pre><style contenteditable class="editable-style" type="text/css">
+#slide-1 > div {
+border: none;
+/* box-sizing: content-box; */
+padding: 0px;
+}
+</style></pre>
+					<div id="slide-1" class="editable-content">
+						<div>Text Text</div>
+						<div>Text Text</div>
+						<div>Text Text</div>
+						<div>Text Text</div>
+					</div>
+
+					
 				</section>
 
 				<!-- Example of nested vertical slides -->
