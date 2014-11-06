@@ -33,3 +33,7 @@ img.clients {
   max-width: 80%;
   transform: translate(12%, 50px);
 }
+
+code {
+  padding: 10px 20px !important;
+}
