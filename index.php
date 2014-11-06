@@ -13,7 +13,7 @@
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
+		<link rel="stylesheet" href="vender/prism.css">
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/beige.css" id="theme">
 		<link rel="stylesheet" href="css/herchel.css">
@@ -22,6 +22,8 @@
 		<link rel="stylesheet" href="lib/css/zenburn.css">
 	
 		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script src="vender/prism.js"></script>
+		<script src="vender/jquery.min.js"></script>
 		<script>
 			if( window.location.search.match( /print-pdf/gi ) ) {
 				var link = document.createElement( 'link' );
@@ -31,10 +33,7 @@
 				document.getElementsByTagName( 'head' )[0].appendChild( link );
 			}
 		</script>
-
-		<!--[if lt IE 9]>
-		<script src="lib/js/html5shiv.js"></script>
-		<![endif]-->
+		<script src="js/herchel.js"></script>
 	</head>
 
 	<body>
