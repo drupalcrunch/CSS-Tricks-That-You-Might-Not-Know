@@ -14,7 +14,7 @@
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/beige.css" id="theme">
 		<link rel="stylesheet" href="css/herchel.css">
 		<link rel="stylesheet" href="css/slides.css">
@@ -43,49 +43,14 @@
 
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
-				<section>
-					<h1>Random CSS Crap That You Might Not Know...</h1>
-					<h3>An excercise in titling presentations badly</h3>
-					<p>
-						<small>Created by <a href="http://herchel.com">Mike Herchel</a> / <a href="http://twitter.com/mikeherchel">@mikeherchel</a></small>
-					</p>
-				</section>
+<?php require 'slides/1.html';?>
+<?php require 'slides/2.html';?>			
+<?php require 'slides/3.html';?>
+<?php require 'slides/4.html';?>			
 
-				<section data-transition="none" style="height: 50vh;">
-					<h2>About Me</h2>
-				  <img class="lullalogo" src="images/lullalogo.png" width="20%" alt="Lullabot">
-					<p>
-						I'm a Gainesvillian since 2000. I'm a front-end developer at <a href="https://www.lullabot.com/">Lullabot</a>, and we make big-ass websites.
-					</p>
-				</section>
+				
 
-				<section data-transition="fade" style="height: 50vh;">
-					<h2>About Me</h2>
-				  <img class="lullalogo" src="images/lullalogo.png" width="20%" alt="Lullabot">
-					<p>
-						I'm a Gainesvillian since 2000. I'm a front-end developer at <a href="https://www.lullabot.com/">Lullabot</a>, and we make big-ass websites.
-					</p>
-					<p><img class="clients" src="images/logos.png" height="205" width="1347" alt=""></p>
-				</section>
-
-				<section class="editable">
-					<h1 class="editable-text">CSS Box Sizing</h1>
-<pre><style contenteditable class="editable-style" type="text/css">
-#slide-1 > div {
-border: none;
-/* box-sizing: content-box; */
-padding: 0px;
-}
-</style></pre>
-					<div id="slide-1" class="editable-content">
-						<div>Text Text</div>
-						<div>Text Text</div>
-						<div>Text Text</div>
-						<div>Text Text</div>
-					</div>
-
-					
-				</section>
+				
 
 				<!-- Example of nested vertical slides -->
 				<section>
