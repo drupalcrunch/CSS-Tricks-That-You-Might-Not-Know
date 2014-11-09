@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>Random CSS crap that you might not know... by Mike Herchl</title>
+		<title>Random CSS crap that you might not know... by Mike Herchel</title>
 
 		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
 		<meta name="author" content="Hakim El Hattab">
@@ -13,7 +13,7 @@
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-		<link rel="stylesheet" href="vender/prism.css">
+		<!--<link rel="stylesheet" href="vender/prism.css">-->
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/beige.css" id="theme">
 		<link rel="stylesheet" href="css/herchel.css">
@@ -22,8 +22,8 @@
 		<link rel="stylesheet" href="lib/css/zenburn.css">
 	
 		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
-		<script src="vender/prism.js"></script>
-		<script src="vender/jquery.min.js"></script>
+		<!--<script src="vender/prism.js"></script>
+		<script src="vender/jquery.min.js"></script>-->
 		<script>
 			if( window.location.search.match( /print-pdf/gi ) ) {
 				var link = document.createElement( 'link' );
@@ -46,8 +46,9 @@
 <?php require 'slides/2.html';?>			
 <?php require 'slides/3.html';?>
 <?php require 'slides/4.html';?>			
-
-				
+<?php require 'slides/5.html';?>	
+<?php require 'slides/6.html';?>
+<?php require 'slides/7.html';?>				
 
 				
 

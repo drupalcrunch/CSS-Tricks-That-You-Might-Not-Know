@@ -1,18 +1,13 @@
-.reveal section {
-  position: relative;
-}
-.reveal section img {
-  border: none!important;
-  box-shadow: none!important;
-  height: auto!important;
-}
-.reveal section .lullalogo {
-  position: absolute;
-  top: 30px;
-  border: 0;
-  box-shadow: none;
-  width: 18%;
-  right: 100%;
+.reveal {
+  section {
+   position: relative;
+   img {
+    border: none!important;
+    box-shadow: none!important;
+    height: auto!important;
+    margin: 0 !important;
+   }
+ }
 }
 .editable-style {
   display: block;
@@ -23,13 +18,15 @@
   margin: 30px auto;
   text-align: left;
 }
-img.clients {
-  display: block;
-  margin: 0 auto;
-  max-width: 80%;
-  transform: translate(12%, 50px);
-
-}
 code {
   padding: 10px 20px!important;
 }
+style {
+  display: block;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  max-height: 200px;
+  overflow: scroll;
+}
+
+

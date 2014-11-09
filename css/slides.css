@@ -1,8 +1,63 @@
-#slide-1 div {
+#slide2 img.lullalogo,
+#slide3 img.lullalogo {
+  position: absolute;
+  top: 30px;
+  border: 0;
+  box-shadow: none;
+  width: 18%;
+  right: 100%;
+}
+#slide2 img.clients,
+#slide3 img.clients {
+  display: block;
+  margin: 0 auto;
+  max-width: 80%;
+  transform: translate(12%, 50px);
+}
+
+#slide-4-editable div {
   height: 100px;
   background: #ccc;
   font-size: 22px;
+  width: 25%;
+  float: left;
+  border: none;
+  padding: 0px;
+  text-align: left;
 }
-#slide-1 div:nth-child(even) {
+#slide-4-editable div:nth-child(even) {
   background: #ddd;
+}
+
+#slide-5-editable > .wrapper {
+  background: #eee;
+  min-width: 25%;
+}
+#slide-5-editable > .wrapper .inner {
+  width: 50px;
+  height: 50px;
+  background: #ccc;
+}
+
+#slide-6-editable .wrapper {
+  background: #eee;
+}
+
+#slide7 .wrapper {
+  border-top: solid 10px #ccc;
+  width: 600px;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  background: #eee;
+}
+#slide7 .wrapper li {
+  display: block;
+  float: left;
+  padding: 3px;
+  background: #666;
+  border: solid 2px white;
+  box-sizing: border-box;
+  text-align: center;
+  color: white;
 }
