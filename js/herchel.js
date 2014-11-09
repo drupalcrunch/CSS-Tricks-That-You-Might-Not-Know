@@ -1,14 +1,9 @@
 $(document ).ready(function() {
-  $('code').click(function() {
-    $(this).addClass('language-none');
-    $('span', this).contents().unwrap();
-    $(this).wrapInner('<style contenteditable class="editable-style" type="text/css"></style>');
-   // $(this).replace(/\r?\n/g, '');
-    $(this).contents().unwrap();
-  });
-
-  // $('style[contenteditable]').blur(function() {
-  //   $(this).wrapInner('<code class="language-css"></code>');
-  //   $(this).contents().unwrap();
-  // })
+  $('#slide7 .btn-add').click(function() {
+    $('#slide7 .wrapper').append('<li>Lorem</li>');
+  })
+  $('#slide7 .btn-remove').click(function() {
+    $('#slide7 .wrapper li:last-child').remove();
+  })
+  
 });

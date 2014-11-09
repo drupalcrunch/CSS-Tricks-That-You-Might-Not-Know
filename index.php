@@ -22,8 +22,8 @@
 		<link rel="stylesheet" href="lib/css/zenburn.css">
 	
 		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
-		<!--<script src="vender/prism.js"></script>
-		<script src="vender/jquery.min.js"></script>-->
+		<!--<script src="vender/prism.js"></script>-->
+		<script src="vender/jquery.min.js"></script>
 		<script>
 			if( window.location.search.match( /print-pdf/gi ) ) {
 				var link = document.createElement( 'link' );
