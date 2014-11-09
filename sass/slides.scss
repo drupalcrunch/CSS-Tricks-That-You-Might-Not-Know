@@ -63,10 +63,31 @@
     }
   }
 }
-
-
-
-
+#slide8 {
+  .item {
+    min-height: 20px;
+    width: 200px;
+    background: #eee;
+    border: solid 1px white;
+    font-size: 18px;
+    color: white;
+    list-style:none;
+    padding: 5px 10px;
+    margin: 0;
+  }
+  .item-green {
+    background: green;
+  }
+  .item-blue {
+    background: blue;
+  }
+  .item-orange {
+    background: orange;
+  }
+  .item-red {
+    background: red;
+  }
+}
 
 
 

@@ -60,3 +60,27 @@
   text-align: center;
   color: white;
 }
+
+#slide8 .item {
+  min-height: 20px;
+  width: 200px;
+  background: #eee;
+  border: solid 1px white;
+  font-size: 18px;
+  color: white;
+  list-style: none;
+  padding: 5px 10px;
+  margin: 0;
+}
+#slide8 .item-green {
+  background: green;
+}
+#slide8 .item-blue {
+  background: blue;
+}
+#slide8 .item-orange {
+  background: orange;
+}
+#slide8 .item-red {
+  background: red;
+}

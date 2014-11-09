@@ -49,7 +49,7 @@
 <?php require 'slides/5.html';?>	
 <?php require 'slides/6.html';?>
 <?php require 'slides/7.html';?>				
-
+<?php require 'slides/8.html';?>	
 				
 
 				<!-- Example of nested vertical slides -->
