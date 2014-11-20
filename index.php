@@ -54,7 +54,9 @@
 <?php require 'slides/10.html';?>
 <?php require 'slides/11.html';?>
 <?php require 'slides/12.html';?>				
-
+<?php require 'slides/13.html';?>	
+<?php require 'slides/14.html';?>			
+<?php require 'slides/15.html';?>		
 			</div>
 
 		</div>

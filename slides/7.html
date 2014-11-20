@@ -1,27 +1,27 @@
-<section id="slide7" class="editable">
+<section id="pseudo-mq" class="editable">
 <h2 class="editable-text">Pseudo Media Queries</h2>
 <pre><style contenteditable>
-.wrapper li:only-child {
+#pseudo-mq .wrapper li:only-child {
   width: 100%;
 }
-.wrapper li:first-child:nth-last-child(2n), 
-.wrapper li:first-child:nth-last-child(2n) ~ li {
+#pseudo-mq .wrapper li:first-child:nth-last-child(2n), 
+#pseudo-mq .wrapper li:first-child:nth-last-child(2n) ~ li {
   width: 50%;
 }
-.wrapper li:first-child:nth-last-child(3n), 
-.wrapper li:first-child:nth-last-child(3n) ~ li {
+#pseudo-mq .wrapper li:first-child:nth-last-child(3n), 
+#pseudo-mq .wrapper li:first-child:nth-last-child(3n) ~ li {
   width: 33.33%;
 }
-.wrapper li:first-child:nth-last-child(4n), 
-.wrapper li:first-child:nth-last-child(4n) ~ li {
+#pseudo-mq .wrapper li:first-child:nth-last-child(4n), 
+#pseudo-mq .wrapper li:first-child:nth-last-child(4n) ~ li {
   width: 25%;
 }
-.wrapper li:first-child:nth-last-child(5n), 
-.wrapper li:first-child:nth-last-child(5n) ~ li {
+#pseudo-mq .wrapper li:first-child:nth-last-child(5n), 
+#pseudo-mq .wrapper li:first-child:nth-last-child(5n) ~ li {
   width: 20%;
 }
 </style></pre>
-  <div id="slide-7-editable" class="editable-content">
+  <div id="pseudo-mq-editable" class="editable-content">
     <button class="btn-add">Add</button><button class="btn-remove">Remove</button><br>
   <ul class="wrapper">
     <li>Lorem</li>

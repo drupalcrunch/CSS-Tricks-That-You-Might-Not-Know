@@ -1,5 +1,5 @@
-#slide2 img.lullalogo,
-#slide3 img.lullalogo {
+#about img.lullalogo,
+#clients img.lullalogo {
   position: absolute;
   top: 30px;
   border: 0;
@@ -7,15 +7,15 @@
   width: 18%;
   right: 100%;
 }
-#slide2 img.clients,
-#slide3 img.clients {
+#about img.clients,
+#clients img.clients {
   display: block;
   margin: 0 auto;
   max-width: 80%;
   transform: translate(12%, 50px);
 }
 
-#slide-4-editable div {
+#box-sizing-editable div {
   height: 100px;
   background: #ccc;
   font-size: 22px;
@@ -25,32 +25,32 @@
   padding: 0px;
   text-align: left;
 }
-#slide-4-editable div:nth-child(even) {
+#box-sizing-editable div:nth-child(even) {
   background: #ddd;
 }
 
-#slide-5-editable > .wrapper {
+#centering-editable > .wrapper {
   background: #eee;
   min-width: 25%;
 }
-#slide-5-editable > .wrapper .inner {
+#centering-editable > .wrapper .inner {
   width: 50px;
   height: 50px;
   background: #ccc;
 }
 
-#slide-6-editable .wrapper {
+#cover-images-editable .wrapper {
   background: #eee;
 }
 
-#slide7 .wrapper {
+#pseudo-mq .wrapper {
   width: 600px;
   overflow: hidden;
   padding: 0;
   margin: 0;
   background: #eee;
 }
-#slide7 .wrapper li {
+#pseudo-mq .wrapper li {
   display: block;
   float: left;
   padding: 3px;
@@ -61,7 +61,7 @@
   color: white;
 }
 
-#slide8 .item {
+#not .item {
   min-height: 20px;
   width: 200px;
   background: #eee;
@@ -72,20 +72,20 @@
   padding: 5px 10px;
   margin: 0;
 }
-#slide8 .item-green {
+#not .item-green {
   background: green;
 }
-#slide8 .item-blue {
+#not .item-blue {
   background: blue;
 }
-#slide8 .item-orange {
+#not .item-orange {
   background: orange;
 }
-#slide8 .item-red {
+#not .item-red {
   background: red;
 }
 
-#slide9 #slide-9-editable div {
+#flex #flex-editable div {
   float: left;
   font-size: 16px;
   width: 33%;
@@ -95,23 +95,23 @@
   border-right: 1px solid white;
   line-height: 1.3;
 }
-#slide9 #slide-9-editable div:last-child {
+#flex #flex-editable div:last-child {
   border: none;
 }
 
-#slide10 #slide-10-editable * {
+#fixed-aspect #fixed-aspect-editable * {
   box-sizing: border-box;
 }
-#slide10 #slide-10-editable .item {
+#fixed-aspect #fixed-aspect-editable .item {
   float: left;
   background: #eee;
   border-right: 1px solid white;
   overflow: hidden;
 }
-#slide10 #slide-10-editable .item:last-child {
+#fixed-aspect #fixed-aspect-editable .item:last-child {
   border: none;
 }
-#slide10 #slide-10-editable .item div {
+#fixed-aspect #fixed-aspect-editable .item div {
   position: absolute;
   top: 0;
   left: 0;
@@ -122,9 +122,51 @@
   line-height: 1.3;
 }
 
-#slide-11-editable div {
+#pseudo-elements-editable div {
   width: 300px;
   height: 50px;
   background: #333;
   margin: 0 auto;
+}
+
+#pointer-events-editable a.large {
+  width: 200px;
+  height: 200px;
+  display: block;
+  background: #ccc;
+}
+#pointer-events-editable a.large:hover {
+  background: #ddd;
+}
+#pointer-events-editable a.small {
+  position: relative;
+  top: -100px;
+  left: 20px;
+  height: 50px;
+  width: 50px;
+  display: block;
+  background: green;
+}
+#pointer-events-editable a.small:hover {
+  background: lightgreen;
+}
+
+#calc-vw-editable * {
+  box-sizing: border-box;
+}
+#calc-vw-editable div {
+  padding: 20px;
+  font-size: 13px;
+}
+#calc-vw-editable .first {
+  background: #eee;
+  float: left;
+}
+#calc-vw-editable .last {
+  background: #ccc;
+  float: left;
+}
+
+#mq-js pre {
+  margin-bottom: 10px;
 }

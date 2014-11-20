@@ -1,5 +1,5 @@
-#slide2,
-#slide3 {
+#about,
+#clients {
   img.lullalogo {
     position: absolute;
     top: 30px;
@@ -15,7 +15,7 @@
     transform: translate(12%, 50px);
   }
 }
-#slide-4-editable {
+#box-sizing-editable {
   div {
     height: 100px;
     background: #ccc;
@@ -30,7 +30,7 @@
     }
   }
 }
-#slide-5-editable {
+#centering-editable {
   > .wrapper { 
     background: #eee;
     min-width: 25%;
@@ -41,10 +41,10 @@
     }
   }
 }
-#slide-6-editable .wrapper {
+#cover-images-editable .wrapper {
   background: #eee;
 }
-#slide7 {
+#pseudo-mq {
   .wrapper {
     width: 600px;
     overflow: hidden;
@@ -63,7 +63,7 @@
     }
   }
 }
-#slide8 {
+#not {
   .item {
     min-height: 20px;
     width: 200px;
@@ -88,8 +88,8 @@
     background: red;
   }
 }
-#slide9 {
-  #slide-9-editable {
+#flex{
+  #flex-editable {
     div {
       float: left;
       font-size: 16px;
@@ -105,8 +105,8 @@
     }
   }
 }
-#slide10 {
-  #slide-10-editable {
+#fixed-aspect {
+  #fixed-aspect-editable {
     * {
       box-sizing: border-box;
     }
@@ -131,7 +131,7 @@
     }
   }
 }
-#slide-11-editable {
+#pseudo-elements-editable {
   div {
     width: 300px;
     height: 50px;
@@ -139,6 +139,72 @@
     margin: 0 auto;
   }
 }
+#pointer-events-editable {
+  a.large {
+    width: 200px;
+    height: 200px;
+    display: block;
+    background: #ccc;
+    &:hover {
+      background: #ddd;
+    }
+  }
+  a.small {
+    position: relative;
+    top: -100px;
+    left: 20px;
+    height: 50px;
+    width: 50px;
+    display: block;
+    background: green;
+    &:hover {
+      background: lightgreen;
+    }
+  }
+}
+#calc-vw-editable {
+  * {
+    box-sizing: border-box;
+  }
+  div {
+    padding: 20px;
+    font-size: 13px;
+  }
+  .first {
+    background: #eee;
+    float: left;
+  }
+  .last {
+    background: #ccc;
+    float: left;
+  }
+}
+#mq-js {
+  pre {
+    margin-bottom: 10px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,9 +1,9 @@
 $(document ).ready(function() {
-  $('#slide7 .btn-add').click(function() {
-    $('#slide7 .wrapper').append('<li>Lorem</li>');
+  $('#pseudo-mq .btn-add').click(function() {
+    $('#pseudo-mq .wrapper').append('<li>Lorem</li>');
   })
-  $('#slide7 .btn-remove').click(function() {
-    $('#slide7 .wrapper li:last-child').remove();
+  $('#pseudo-mq .btn-remove').click(function() {
+    $('#pseudo-mq .wrapper li:last-child').remove();
   })
   
 });

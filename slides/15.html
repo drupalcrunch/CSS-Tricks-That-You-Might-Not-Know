@@ -1,0 +1,29 @@
+<section id="mq-js" class="editable">
+<h2 class="editable-text">Breakpoints into Javascript</h2>
+<pre><code>
+body {
+  @include breakpoint($smartphone_wide) {
+    content: "smartphone_wide";
+  }
+  @include breakpoint($tablet_narrow) {
+    content: "tablet_narrow";
+  }
+  @include breakpoint($tablet_wide) {
+    content: "tablet_wide";
+  }
+  @include breakpoint($normal) {
+    content: "normal";
+  }
+}
+</code></pre>
+<pre><code>
+  recalculatePositions.refreshBreakpoint = function () {
+    // Firefox returns double-quotes around the breakpoint, so we need to remove those.
+    this.breakpoint = $('body').css('content').replace(/\"/g, '');
+  };
+  $(window).resize(function () {
+    recalculatePositions.refreshBreakpoint();
+  }).resize();
+</code></pre>
+
+</section>
