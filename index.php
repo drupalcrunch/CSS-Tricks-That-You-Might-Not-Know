@@ -52,8 +52,8 @@
 <?php require 'slides/8.html';?>				
 <?php require 'slides/9.html';?>	
 <?php require 'slides/10.html';?>
-
-				
+<?php require 'slides/11.html';?>
+<?php require 'slides/12.html';?>				
 
 			</div>
 
