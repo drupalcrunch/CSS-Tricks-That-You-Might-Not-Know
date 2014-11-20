@@ -98,3 +98,26 @@
 #slide9 #slide-9-editable div:last-child {
   border: none;
 }
+
+#slide10 #slide-10-editable * {
+  box-sizing: border-box;
+}
+#slide10 #slide-10-editable .item {
+  float: left;
+  background: #eee;
+  border-right: 1px solid white;
+  overflow: hidden;
+}
+#slide10 #slide-10-editable .item:last-child {
+  border: none;
+}
+#slide10 #slide-10-editable .item div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  font-size: 16px;
+  line-height: 1.3;
+}
