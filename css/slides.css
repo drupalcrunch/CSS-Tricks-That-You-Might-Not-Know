@@ -170,3 +170,10 @@
 #mq-js pre {
   margin-bottom: 10px;
 }
+
+#css-ellipsis-editable div {
+  width: 300px;
+  background: #eee;
+  padding: 20px;
+  font-size: 16px;
+}
