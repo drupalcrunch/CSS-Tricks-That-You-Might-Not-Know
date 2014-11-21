@@ -44,7 +44,7 @@
 			<div class="slides">
 <?php require 'slides/1.html';?>
 <?php require 'slides/2.html';?>			
-<?php require 'slides/3.html';?>
+<?php //require 'slides/3.html';?>
 <?php require 'slides/4.html';?>			
 <?php require 'slides/5.html';?>	
 <?php require 'slides/6.html';?>
@@ -58,6 +58,9 @@
 <?php require 'slides/14.html';?>			
 <?php require 'slides/15.html';?>	
 <?php require 'slides/16.html';?>	
+<section id="slidexx" class="editable">
+<h1>The End</h1>
+</section>
 			</div>
 
 		</div>
